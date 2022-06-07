@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create a column layout with Flexbox */
+.row {
+  display: flex;
+}
+
+/* Left column (menu) */
+.left {
+  flex: 35%;
+  padding: 15px 0;
+}
+
+.left h2 {
+  padding-left: 8px;
+}
+
+/* Right column (page content) */
+.right {
+  flex: 65%;
+  padding: 15px;
+}
+
+/* Style the search box */
+#mySearch {
+  width: 100%;
+  font-size: 18px;
+  padding: 11px;
+  border: 1px solid #ddd;
+}
+
+/* Style the navigation menu inside the left column */
+#myMenu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myMenu li a {
+  padding: 12px;
+  text-decoration: none;
+  color: black;
+  display: block
+}
+
+#myMenu li a:hover {
+  background-color: #eee;
+}
+</style>
+</head>
+<body>
+
+<div class="row">
+  <div class="left" style="background-color:#bbb;">
+    <h2>Kardna Proxy</h2>
+    <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+    <ul id="myMenu">
+      <li><a href="2k22.html">2k22</a></li>
+      <li><a href="amongus.html">AmongUs</a></li>
+      <li><a href="apex.html">Apex Legends</a></li>
+      <li><a href="BeamNg.Drive.html">BeanNg.Drive</a></li>
+      <li><a href="cg.html">Crazy Games</a></li>
+      <li><a href="csgo.html">Csgo</a></li>
+      <li><a href="discord.html">Discord</a></li>
+      <li><a href="fng.html">Fortnite</a></li>
+      <li><a href="krunker.io.html">Krunker.io</a></li>
+      <li><a href="MotoGP 20.html">MotoGP 20</a></li>
+      <li><a href="Payday2.html">Payday 2</a></li>
+      <li><a href="Ready Or Not.html">Ready Or Not</a></li>
+      <li><a href="Ride 4.html">Ride 4</a></li>
+      <li><a href="roblox.html">Roblox</a></li>
+      <li><a href="rust.html">Rust</a></li>
+      <li><a href="skate3.html">Skate 3</a></li>
+      <li><a href="TCRainbow6-gfn.html">Rainbow 6</a></li>
+      <li><a href="tf2.html">Team Fortress 2</a></li>
+      <li><a href="Trackmania.html">Trackmania</a></li>
+      <li><a href="twitch.html">Twitch</a></li>
+      <li><a href="Uno.html">Uno</a></li>
+      <li><a href="Unturned.html">Unturned</a></li>
+    </ul>
+  </div>
+  
+  <div class="right" style="background-color:#ddd;">
+    <h2>Kardna Menu</h2>
+    <p>This Is The Offical Game/App Menu For Kardna Proxy</p>
+    <br>
+    <p>*Some Games Might Require Subscriptions/Accounts like Nvidia GeForce Now or Xbox Game Pass*</p>
+    <p>*Also Some Games Might Be Better Playing With A Accessories Like A Keyboard, Mouse, or a Controller*</p>
+    <br><br>
+    <p>Kardna Network (c) 2022</p>
+  </div>
+</div>
+
+<script>
+function myFunction() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("mySearch");
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myMenu");
+  li = ul.getElementsByTagName("li");
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+</script>
+
+</body>
+</html>

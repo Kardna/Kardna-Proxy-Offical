@@ -4,7 +4,7 @@
   <link href="nav.css" rel="stylesheet">
  <script>
   if(top!=self){
-    top.location.replace(document.location);
+    top.location.replace(window.self.location.href);
     alert("For security reasons, framing is not allowed; click OK to remove the frames.")
 }
  </script>

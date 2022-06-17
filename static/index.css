@@ -28,6 +28,12 @@ body {
      -ms-user-select: none;
          user-select: none;
 }
+.kardimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
 
 
 .fa-magnifying-glass {
@@ -128,4 +134,3 @@ canvas {
     z-index: -1;
   }
 
- 

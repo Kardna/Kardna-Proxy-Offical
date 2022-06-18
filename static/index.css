@@ -28,12 +28,6 @@ body {
      -ms-user-select: none;
          user-select: none;
 }
-.kardimg{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-}
 
 
 
@@ -134,4 +128,18 @@ canvas {
     height: 100%;
     z-index: -1;
   }
+.settingsP {
+    font-size: 25px;
+}
+.settingsBody {
+    color: grey;
+    font-family: 'A';
+    font-weight: 500;
+    text-align: center;
+}
+.settingsHead {
+    color: grey;
+    font-size: 80px;
+    font-family: 'A';
+}
 

@@ -15,6 +15,7 @@
 .nav {
     height: 40px; /* set same as height & line-height below */
     font-family: A;
+    text-align: center;
   }
   
   /* This rule centers the nav items verticaly in the bar with the height and line height properties. Spacing between the nav items is controlled by setting right and left padding.  */

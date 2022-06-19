@@ -163,7 +163,6 @@ body {
 .dropDown {
     position: relative;
     display: inline-block;
-    float: right;
 }
   
 .dropdownContent {
@@ -413,7 +412,6 @@ Note: CHANGE THIS! THIS IS NOT GOING TO STAY LIKE THIS!! DO NOT LET IT!!! */
 
 canvas {
     display: block;
-    vertical-align: bottom;
     z-index: -1;
 
   }
